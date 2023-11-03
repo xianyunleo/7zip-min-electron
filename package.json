@@ -1,5 +1,5 @@
 {
-  "name": "7zip-min",
+  "name": "7zip-min-electron",
   "version": "1.4.4",
   "description": "Standalone cross-platform zip/unzip with 7za",
   "main": "index.js",
@@ -10,9 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onikienko/7zip-min.git"
+    "url": "https://github.com/xianyunleo/7zip-min-electron"
   },
   "keywords": [
+    "electron",
     "7z",
     "7zip",
     "7-zip",
@@ -26,12 +27,12 @@
     "bzip2",
     "tar"
   ],
-  "author": "Mykhailo Onikiienko <michael.onikienko@gmail.com>",
+  "author": "xianyunleo <xianyunleo@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/onikienko/7zip-min/issues"
+    "url": "https://github.com/xianyunleo/7zip-min-electron/issues"
   },
-  "homepage": "https://github.com/onikienko/7zip-min#readme",
+  "homepage": "https://github.com/xianyunleo/7zip-min-electron#readme",
   "dependencies": {
     "7zip-bin": "5.1.1"
   },

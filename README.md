@@ -1,9 +1,7 @@
-7zip-min
+7zip-min-electron
 ========
 
-### Russian invaders must die. Glory to Ukraine. 🇺🇦
-
-Minimal cross-platform pack/unpack (and any command) with **7-zip** for Node.js.   
+Minimal cross-platform pack/unpack (and any command) with **7-zip** for Electron.   
 It does not require **7zip** to be installed in your system. 
 This package includes standalone **7za** version of **7-Zip** (uses precompiled binaries from [7zip-bin](https://github.com/develar/7zip-bin) package).
 
@@ -40,7 +38,7 @@ You can also use `list` to get an array with the file content properties (includ
 Or use `cmd` to run 7za with custom parameters (see [Command Line Version User's Guide](https://sevenzip.osdn.jp/chm/cmdline/index.htm))
 
 ```js
-const _7z = require('7zip-min');
+const _7z = require('7zip-min-electron');
 
 // unpack
 _7z.unpack('path/to/archive.7z', 'where/to/unpack', err => {
