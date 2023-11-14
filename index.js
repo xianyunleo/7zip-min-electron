@@ -1,7 +1,8 @@
 'use strict';
 
+const sep = require('path').sep;
 const spawn = require('child_process').spawn;
-const path7za = require('7zip-bin').path7za;
+const path7za = require('7zip-bin').path7za.replace(`app.asar${sep}`, `app.asar.unpacked${sep}`);
 
 /**
  * Unpack archive.
